@@ -127,6 +127,7 @@
   padding: 0.5em;
   border-radius: 0.3em;
   font-family: sans-serif;
+  font-size: 16px;
 }
 .link-r {
   margin-bottom: 2em;
@@ -162,6 +163,7 @@ margin-top 0em,
 .social {
   margin-left: 40em;
 }
+
 .play {
   margin-right: 5em;
 margin-le
@@ -169,6 +171,13 @@ margin-le
 .icon {
   display: block;
   color: orange;
+  margin-left: 7%;
+  font-size: 15.3px;
+  text-align: left;
+
+}
+.fleft{
+  font-size: 15.3px;
 }
 .facebook {
   background-color: rgba(0,0,0,0.3);
@@ -367,13 +376,23 @@ margin-le
 
 .LogoBottom-container>img.logoindex {
   width: 10em;
+  margin-left: 10%;
 }
-
+body {
+  font-family: monospace;
+}
 .q {
   z-index: 2;
   position: absolute;
   bottom: 50%;
-  left: 45%;
+  left: 28;
+  width:80%;
+  font-size: 30%;
+  color: white;
+  margin-right: 200%;
+  padding-left: 12%;
+  position: relative;
+  font-size: 31%;
 }
 
 .SectionNav{

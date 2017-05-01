@@ -73,33 +73,43 @@
 
 	<div class="Footer-left">
 		<p class="Footer-item">Hola Amigos</p>
-			<a class="icon">Mi nombre es James Gallego, soy Locutor, Periodista, Productor, Editor de Audio y Video.
-
+			<a class="icon"> Mi nombre es James Gallego, soy Locutor, Periodista, Productor, Editor de Audio y Video.
+<br>
+<br>
 Un día salí de mi hermoso País Colombia y emprendí una corta pero enriquecedora gira por varios países del mundo, entre ellos: Estados Unidos, Holanda, Egipto, Israel, España, Paris, Italia, Panamá, Venezuela y Brasil.
-
+<br>
+<br>
 Allí pude conocer diferentes culturas entre ellas su música.
-
+<br>
+<br>
 Pero me causo curiosidad que no escuche en estos países de Norte América, Europa y Norte de Frica, los ritmos que identifican la alegría y la afabilidad de los colombianos que a través de nuestra música irradiamos identidad y alegría para el mundo.
-
+<br>
+<br>
 Entonces me propuse crear una estación radial virtual que colmara las expectativas de un gran número personas y como yo, que quieren escuchar no solo un género específico, sino las grandes alternativas que nos ofrece el fantástico mundo de la música sin importar su origen ni el lugar del mundo donde te encuentres.
-
+<br>
+<br>
 Hoy coloco a su entera disposición La Emisora VIRTUAL STEREO NET, seguramente será su más fiel compañía en sus ratos de alegría o de grandes sentimiento, acompañado con sus amigos o en los momentos de nostalgia, porque somos la mejor alternativa en la Red.
-
+<br>
+<br>
 Tu apoyo o contribución mediante el patrocinio será lo más importante para ampliar nuestra visión futurista.
-
+<br>
+<br>
 Que Dios los Bendiga
-
+<br>
+<br>
 Con Aprecio
-
+<br>
+<br>
 JAMES GALLEGO
-
+<br>
+<br>
 Director.</a>
 	</div>
 	<div class="Footer-left">
 		<p class="Footer-item">Al Aire</p>
-			<p class="1">(+57)3122838431</p>
-      <p class="1">EMISORA VIRTUAL STEREO, COLOMBIA</p>
-      <p class="1">virtualstereonet@gmail.com</p>
+			<p class="fleft">(+57)3122838431</p>
+      <p class="fleft">EMISORA VIRTUAL STEREO, COLOMBIA</p>
+      <p class="fleft">virtualstereonet@gmail.com</p>
 
 	</div>
 	<div class="Footer-left">

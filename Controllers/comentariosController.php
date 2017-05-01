@@ -44,4 +44,6 @@
      }
     }
 
+    $comentario = new comentariosController();
+
     ?>

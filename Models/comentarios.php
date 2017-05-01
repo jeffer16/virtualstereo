@@ -29,12 +29,12 @@
 
     public function add()
     {
-      $sql = "insert into comentarios(contenido,autor) VALUES('{$this->contenido}',{$this->autor}')";
+      $sql = "insert into comentarios(contenido,autor) VALUES('{$this->contenido}','{$this->autor}')";
       $this->con->consultaSimple($sql);
     }
     public function edit()
     {
-      $sql = "update comentarios SET comentarios = '{$this->comentarios}', contenido = {$this->conenido} where id_comentario = {$this->id_comentario}";
+      $sql = "update comentarios SET comentarios = '{$this->comentarios}', contenido = '{$this->conenido}' where id_comentario = {$this->id_comentario}";
       $this->con->consultaSimple($sql);
     }
     public function delete()

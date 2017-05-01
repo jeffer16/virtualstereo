@@ -28,8 +28,8 @@
     }
 
     public function add(){
-      $sql = "insert into noticias(titulo, contenido) VALUES('{$this->titulo}',{$this->contenido}')";
-      echo "$sql";
+      $sql = "insert into noticias(titulo, contenido) VALUES('{$this->titulo}','{$this->contenido}')";
+      //echo $sql;
       $this->con->consultaSimple($sql);
     }
     public function edit(){

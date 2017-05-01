@@ -11,12 +11,12 @@
       return $datos;
     }
       public function agregar(){
+        //echo "agregar";
         if($_POST){
            $this->noticias->set("titulo", $_POST['titulo']);
            $this->noticias->set("contenido", $_POST['contenido']);
            $this->noticias->add();
-           header("location: " . URL  . "noticias");
-
+           header("location: " . URL."dashboard/dashboard");
        }
 
        }
