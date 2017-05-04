@@ -24,8 +24,8 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Emisora Virtual Stereo.net </a>
-                    <a class="navbar-brand" href="#">tu Emisora en la Red</a>
+                    <a class="navbar-brand" style="color: red; font-size: 3em; font-weight: bold;" href="#">Emisora Virtual Stereo.net </a>
+                    <a class="navbar-brand" style="color:gris; font-size: 3em; font-weight: bold;" href="#">tu Emisora en la Red</a>
 
                   </div>
                 <div class="collapse navbar-collapse Barra" id="#bs-example-navbar-collapse-2">
@@ -117,7 +117,7 @@ Director.</a>
     <input type="text" name="emailcontact" placeholder="correo electronico"></input>
 
     <textarea type="text" name="messagecontact" placeholder="mensaje"></textarea>
-  <button type="button" onclick="sendEmail()">Enviar</button>	</div>
+  <button type="button" style="background:orange; border-radius:10px; font-size:17px;" class="butonfooter" onclick="sendEmail()">Enviar</button>	</div>
 
 </footer>
 

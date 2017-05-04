@@ -158,7 +158,7 @@ $comentarios=$dash->listarComentarios();
       <h6>Oyentes</h6>
       <form class="" action="http://localhost/proyecto/dashboard/agregar" method="post">
       <textarea class="texta" name="contenido" placeholder="Enviar saludos en vivo aqui."></textarea>
-      <button type="submit" name="button">Enviar</button>
+      <button type="submit" style="background:orange; border-radius:10px; font-size:17px; color:white;" name="button">Enviar</button>
     </form>
     </article>
     <article>
