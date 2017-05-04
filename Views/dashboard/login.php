@@ -6,12 +6,13 @@
 
     <body>
       <header class="loginimg">
-        <article class="login">
+        <form class="login" method="post" action="http://localhost/proyecto/dashboard/login">
           <h3 class="textl">Login</h3>
-          <input type="text" name="email" placeholder="email">
-          <input type="text" name="contraseña" placeholder="contraseña">
+          <input type="email" name="emaillogin" placeholder="email">
+          <input type="password" name="passlogin" placeholder="contraseña">
+          <button type="submit" >Iniciar Session</button>
 
-        </article>
+        </form>
 
 
       </header>

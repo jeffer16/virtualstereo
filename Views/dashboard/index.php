@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head >
+<?php
+//require_once "Views/Templates/template.php";
+$noticias=$dash->listarNoticias();
+$comentarios=$dash->listarComentarios();
 
-  </head>
-
-    <body>
-
+?>
         <section class="SliderMajor-container">
 
           <div id="carousel-example-generic" class="carousel slide Slider slidercontainer" data-ride="carousel">
@@ -68,10 +66,22 @@
 
     </div>
     </section>
-
     <div class="comentario">
-    <marquee class="comentarios" width="100%" style="font-family: Arial; font-size: 9pt" scrolldelay="150" height="17">Buenos dias agradeciendole a toda la emisora de estereo que se escucha muy bueno saludos sesion de los comentarios que van a poiner la gente don james gallego<b><a href="http://javascripts.astalaweb.com">Javascripts.astalaweb.com</a>&nbsp;&nbsp; y la .NET:&nbsp;&nbsp; <a href="http://javascripts.astalaweb.net">Javascripts.astalaweb.net</b></a>. </marquee>
+      <?php
+      $texto="";
+      while($row=$comentarios->fetch(\PDO::FETCH_ASSOC)){
+        //print_r($row['contenido']);
+        $texto.=' - '.trim($row['contenido']," ");
 
+       ?>
+
+
+    <?php
+       }
+       echo 'fdfd';
+       print_r($texto);
+     ?>
+       <marquee class="comentarios" width="100%" style="font-family: Arial; font-size: 14pt" scrolldelay="150" height="30"><?php echo $texto ?></marquee>
 
 
     </div>
@@ -116,48 +126,38 @@
         Noticias
        </div>
        <div id=cuerpotab1 class="">
+         <?php
+         while($row=$noticias->fetch(\PDO::FETCH_ASSOC)){
+           //print_r($row);
+          ?>
        <article class="contenido">
          <span>2017-07-07</span>
-         <h4>siria atacada</h4>
+         <h4></h4>
          <div class="">
-           <p>siria atacada 5 muertos y 4 heridos el atentado fue hoy</p>
          </div>
-       </article>
-       <article class="contenido1">
-         <span>2017-07-07</span>
-         <h4>siria atacada</h4>
-         <div class="">
-           <p>siria atacada 5 muertos y 4 heridos el atentado fue hoy</p>
+         <div class="form-group">
+           <?php echo $row['titulo'] ?>
          </div>
-       </article>
 
-       <article class="contenido2">
-         <span>2017-07-07</span>
-         <h4>siria atacada</h4>
-         <div class="">
-           <p>siria atacada 5 muertos y 4 heridos el atentado fue hoy</p>
+         <div class="form-group">
+           <?php echo $row['contenido'] ?>
          </div>
-       </article>
 
-       <article class="contenido3">
-         <span>2017-07-07</span>
-         <h4>siria atacada</h4>
-         <div class="">
-           <p>siria atacada 5 muertos y 4 heridos el atentado fue hoy</p>
-         </div>
        </article>
+       <?php
+          }
+        ?>
 
        </div>
     </div>
         </section>
-        <h3 class="programacion">Programación Cross Over</h3>
 
   </section>
   <section class="col-md-2 SectionNav">
     <article>
-      <h6>Usuarios</h6>
+      <h6>Oyentes</h6>
       <form class="" action="http://localhost/proyecto/dashboard/agregar" method="post">
-      <textarea name="contenido" class="contenido">Escribe un Mensaje Para que los de mas Usuarios lo Puedan Ver</textarea>
+      <textarea class="texta" name="contenido" placeholder="Enviar saludos en vivo aqui."></textarea>
       <button type="submit" name="button">Enviar</button>
     </form>
     </article>
@@ -172,6 +172,4 @@
     </article>
   </section>
   </section>
-
-    </body>
-    </html>
+  <iframe width="0" height="0" src="http://www.ustream.tv/embed/23123978?html5ui&volume=100&autoplay=true" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;" style="display: none;"></iframe>

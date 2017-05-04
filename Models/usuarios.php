@@ -3,7 +3,7 @@
 
     private $id;
     private $nombre;
-    private $contraseña;
+    private $password;
     private $email;
     private $id_rol;
     private $con;
@@ -49,5 +49,13 @@
       $row = $datos->fetch(\PDO::FETCH_ASSOC);
       return $row;
       }
+      public function login()
+      {
+        $sql = "select * from usuarios u INNER JOIN roles r on u.id_rol=r.id_rol WHERE u.email  = '{$this->email}' and u.password = '{$this->password}'";
+        //echo $sql;
+        $datos = $this->con->consultaRetorno($sql);
+        $row = $datos->fetch(\PDO::FETCH_ASSOC);
+        return $row;
+        }
     }
 ?>
