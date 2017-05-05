@@ -155,7 +155,7 @@ $comentarios=$dash->listarComentarios();
   </section>
   <section class="col-md-2 SectionNav">
     <article>
-      <h6>Oyentes</h6>
+      <h6 style="font-size:2em; color:blue; font-weight:bold; margin-top:1.2em; text-align:center;">Oyentes</h6>
       <form class="" action="http://localhost/proyecto/dashboard/agregar" method="post">
       <textarea class="texta" name="contenido" placeholder="Enviar saludos en vivo aqui."></textarea>
       <button type="submit" style="background:orange; border-radius:10px; font-size:17px; color:white;" name="button">Enviar</button>
@@ -170,6 +170,11 @@ $comentarios=$dash->listarComentarios();
     <article>
       <h6>Visitantes</h6>
     </article>
+    <article>
+      <h6 style="color:blue;">Patrocinadores</h6>
+      <textarea name="name" rows="8" cols="80"></textarea>
+    </article>
   </section>
   </section>
+
   <iframe width="0" height="0" src="http://www.ustream.tv/embed/23123978?html5ui&volume=100&autoplay=true" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;" style="display: none;"></iframe>

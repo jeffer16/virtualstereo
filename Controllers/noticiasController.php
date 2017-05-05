@@ -25,6 +25,9 @@
          $this->noticias->delete();
          header("location:" . URL . "noticias");
      }
+     public function agregarPatrocinador(){
+       
+     }
 
 
      public function editar($id){

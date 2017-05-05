@@ -78,6 +78,12 @@
   color: orange;
 
 }
+.patrocinadores{
+  border-top: 10px solid #BBB;
+  width: 160px;
+  vertical-align: top;
+  border-left: 1px dashed #ccc;
+}
 .slidercontainer{
   height: 100%;
   width: 100%;
@@ -306,6 +312,7 @@ margin-le
    color: #ffffff;
    padding: 2 2 2 2px;
    height: 2.2em;
+   text-align: center;
 
 
 }
@@ -402,5 +409,5 @@ body {
 
 .SectionNav{
   vertical-align: top;
-    border-left: 1px dashed #ccc;
+  border-left: 1px dashed #ccc;
 }
